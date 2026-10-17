@@ -1,0 +1,83 @@
+{
+  "Date": "2026-10-17",
+  "Version": "1.0.0",
+  "Package": "com.ray.phnomy",
+  "MinSdk": 31,
+  "TargetSdk": 36,
+  "Build": "assembleDebug testDebugUnitTest lintRelease assembleRelease assembleDebugAndroidTest",
+  "BuildResult": "SUCCESS",
+  "UnitTests": [
+    {
+      "Name": "com.ray.phnomy.core.FocusControllerTest",
+      "Tests": 26,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.core.SessionEngineTest",
+      "Tests": 14,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.data.LocalFocusRepositoryTest",
+      "Tests": 13,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.data.SessionJsonTest",
+      "Tests": 11,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.platform.PlatformProvidersTest",
+      "Tests": 18,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.platform.ProtectionPolicyTest",
+      "Tests": 7,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    },
+    {
+      "Name": "com.ray.phnomy.ui.FigmaAssetRenderingTest",
+      "Tests": 1,
+      "Failures": 0,
+      "Errors": 0,
+      "Skipped": 0
+    }
+  ],
+  "UnitTotal": 90,
+  "UnitFailures": 0,
+  "Instrumentation": [
+    {
+      "Tests": 4,
+      "Failures": 0,
+      "Api": 31
+    },
+    {
+      "Tests": 4,
+      "Failures": 0,
+      "Api": 36
+    }
+  ],
+  "Lint": {
+    "Warnings": 29,
+    "Errors": 0
+  },
+  "ApkSha256": "89e131d58601d7a6982247b4bfec5a143b51ca3d332eedcf5f30a0f20e31ba90",
+  "ApkBytes": 10859296,
+  "SignedApkVerified": true,
+  "CertificateSha256": "141c522f70f69bac84fd95f0ca00a805cb7e1b03d9fd1ce5054b13e973372700",
+  "PhysicalDeviceTested": false
+}

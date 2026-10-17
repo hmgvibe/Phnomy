@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.core.FocusControllerTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-17T01:24:42.704Z" hostname="Y7000P" time="0.498">
+  <properties/>
+  <testcase name="start takes independent whitelist snapshot and rejects a second session" classname="com.ray.phnomy.core.FocusControllerTest" time="0.241"/>
+  <testcase name="idle restoration clears stale system effects without inventing history" classname="com.ray.phnomy.core.FocusControllerTest" time="0.005"/>
+  <testcase name="start requires disclosure consent and valid timing" classname="com.ray.phnomy.core.FocusControllerTest" time="0.01"/>
+  <testcase name="unchanged phase avoids repeated alarms and applies quiet mode once" classname="com.ray.phnomy.core.FocusControllerTest" time="0.018"/>
+  <testcase name="result dismissal requires matching id and new session clears prior result" classname="com.ray.phnomy.core.FocusControllerTest" time="0.045"/>
+  <testcase name="platform permission problem blocks starting before persistence" classname="com.ray.phnomy.core.FocusControllerTest" time="0.003"/>
+  <testcase name="repeating same reason preserves countdown while changing reason restarts it" classname="com.ray.phnomy.core.FocusControllerTest" time="0.005"/>
+  <testcase name="explicit service interruption preserves checkpoint and clears quiet rule" classname="com.ray.phnomy.core.FocusControllerTest" time="0.004"/>
+  <testcase name="repeated reconciliation and confirmation finalize one history row only" classname="com.ray.phnomy.core.FocusControllerTest" time="0.021"/>
+  <testcase name="phase transitions keep same plan and protection through final long rest" classname="com.ray.phnomy.core.FocusControllerTest" time="0.014"/>
+  <testcase name="protection loss interrupts using last persisted checkpoint" classname="com.ray.phnomy.core.FocusControllerTest" time="0.003"/>
+  <testcase name="starting after idle cleanup resets cleanup state for a later real completion" classname="com.ray.phnomy.core.FocusControllerTest" time="0.003"/>
+  <testcase name="cancel exit preserves original deadline and clears confirmation authorization" classname="com.ray.phnomy.core.FocusControllerTest" time="0.003"/>
+  <testcase name="exit requires a trimmed nonblank reason no longer than one hundred chars" classname="com.ray.phnomy.core.FocusControllerTest" time="0.004"/>
+  <testcase name="whitelist apps are exempt and blocked callbacks after completion are ignored" classname="com.ray.phnomy.core.FocusControllerTest" time="0.005"/>
+  <testcase name="start waits until settings and active storage are actually ready" classname="com.ray.phnomy.core.FocusControllerTest" time="0.007"/>
+  <testcase name="restored protection can reconnect before expiry is reconciled" classname="com.ray.phnomy.core.FocusControllerTest" time="0.007"/>
+  <testcase name="elapsed clock checkpoints every fifteen seconds and ignores wall clock changes" classname="com.ray.phnomy.core.FocusControllerTest" time="0.002"/>
+  <testcase name="reboot restores interrupted checkpoint rather than fake success" classname="com.ray.phnomy.core.FocusControllerTest" time="0.002"/>
+  <testcase name="failed idle cleanup is retried on next reconciliation" classname="com.ray.phnomy.core.FocusControllerTest" time="0.002"/>
+  <testcase name="restored expired session waits for shared protection gate before interrupted checkpoint" classname="com.ray.phnomy.core.FocusControllerTest" time="0.02"/>
+  <testcase name="natural completion wins when exit wait extends beyond session deadline" classname="com.ray.phnomy.core.FocusControllerTest" time="0.004"/>
+  <testcase name="early confirmation fails until full sixty seconds then stores an exited result" classname="com.ray.phnomy.core.FocusControllerTest" time="0.009"/>
+  <testcase name="restored pending exit keeps original sixty second deadline after process recreation" classname="com.ray.phnomy.core.FocusControllerTest" time="0.003"/>
+  <testcase name="caller cancellation after finalization still publishes result and cleans system effects" classname="com.ray.phnomy.core.FocusControllerTest" time="0.013"/>
+  <testcase name="late UI subscriber receives result even when it never observed active state" classname="com.ray.phnomy.core.FocusControllerTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

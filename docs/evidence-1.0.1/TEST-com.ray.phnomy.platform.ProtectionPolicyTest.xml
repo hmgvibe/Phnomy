@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.platform.ProtectionPolicyTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-17T04:12:11.340Z" hostname="Y7000P" time="0.006">
+  <properties/>
+  <testcase name="system settings and emergency phone remain reachable over a blocked pane" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.001"/>
+  <testcase name="all allowed and essential visible packages are permitted" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.0"/>
+  <testcase name="a new installation outside committed whitelist is blocked" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.0"/>
+  <testcase name="an essential keyboard does not exempt a blocked application underneath" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.002"/>
+  <testcase name="unlisted visible split pane is blocked even while allowed pane is focused" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.0"/>
+  <testcase name="Phnomy pane does not exempt a restricted split pane" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.001"/>
+  <testcase name="missing window metadata falls back to the foreground package" classname="com.ray.phnomy.platform.ProtectionPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

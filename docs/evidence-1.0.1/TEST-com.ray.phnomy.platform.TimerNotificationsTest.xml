@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.platform.TimerNotificationsTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2026-10-17T04:12:11.443Z" hostname="Y7000P" time="1.305">
+  <properties/>
+  <testcase name="final completion cancels progress and posts one clear auto dismissable timer alert[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.063"/>
+  <testcase name="recreated effects do not replay the current phase alert[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.063"/>
+  <testcase name="exit and interruption do not announce that time is up[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.064"/>
+  <testcase name="manually blocked legacy channel remains respected[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.04"/>
+  <testcase name="long rest also receives a focus time up alert[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.054"/>
+  <testcase name="untouched legacy default channel is upgraded without modifying the legacy channel[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.044"/>
+  <testcase name="a disabled notification phase does not replay after notification permission returns[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.068"/>
+  <testcase name="rest ending clearly announces the next focus round[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.071"/>
+  <testcase name="manually lowered legacy importance remains respected without creating a louder channel[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.033"/>
+  <testcase name="denied runtime notification permission does not crash or replay old phase[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.034"/>
+  <testcase name="exit request and cancellation within a stage do not produce time up alerts[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.038"/>
+  <testcase name="existing new channel keeps the users silent settings[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.036"/>
+  <testcase name="focus ending posts a distinct high importance timer alert while keeping progress[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.037"/>
+  <testcase name="initial session and minute updates do not sound an end alert[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.034"/>
+  <testcase name="first observation during a restored break only establishes the baseline[31]" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.041"/>
+  <testcase name="final completion cancels progress and posts one clear auto dismissable timer alert" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.055"/>
+  <testcase name="recreated effects do not replay the current phase alert" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.044"/>
+  <testcase name="exit and interruption do not announce that time is up" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.049"/>
+  <testcase name="manually blocked legacy channel remains respected" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.03"/>
+  <testcase name="long rest also receives a focus time up alert" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.036"/>
+  <testcase name="untouched legacy default channel is upgraded without modifying the legacy channel" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.031"/>
+  <testcase name="a disabled notification phase does not replay after notification permission returns" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.048"/>
+  <testcase name="rest ending clearly announces the next focus round" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.039"/>
+  <testcase name="manually lowered legacy importance remains respected without creating a louder channel" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.028"/>
+  <testcase name="denied runtime notification permission does not crash or replay old phase" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.036"/>
+  <testcase name="exit request and cancellation within a stage do not produce time up alerts" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.033"/>
+  <testcase name="existing new channel keeps the users silent settings" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.028"/>
+  <testcase name="focus ending posts a distinct high importance timer alert while keeping progress" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.05"/>
+  <testcase name="initial session and minute updates do not sound an end alert" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.035"/>
+  <testcase name="first observation during a restored break only establishes the baseline" classname="com.ray.phnomy.platform.TimerNotificationsTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

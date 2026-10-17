@@ -1,0 +1,17 @@
+# Phnomy implementation contract
+
+Native Kotlin / Jetpack Compose, package `com.ray.phnomy`, minSdk 31, compile/target 36. Figma source: `alcAGVEVKA4z9srUYZVPKj`; home `6:120`, focus `6:575`, statistics `9:349`. Follow the approved specification in the chat and `design/README.md`.
+
+Ownership: root owns build files, core session engine/controller, application graph, ViewModel/integration and packaging. Data agent owns `data/`. Android platform agent owns `platform/` and accessibility config XML. UI agent owns `ui/` except ViewModel, plus fonts and design icon assets. Coordinate interface changes before edits.
+
+`core/Models.kt` is the shared public contract. Repository flows must be loaded before starting a session. Completion must atomically remove the active session and write one history row. No session changes may expand its whitelist, pause, or shorten the committed duration. Settings edits only affect future plans; data clearing is rejected while active.
+
+Controller API (root): `start(plan): Result<Unit>`, `requestExit(reason): Result<Unit>`, `cancelExit()`, `confirmExit(): Result<Unit>`, `reconcile()`, `interrupt(reason)`, `recordBlock(packageName)`, `progress: StateFlow<SessionProgress?>`. Public suspend methods use a shared mutex. The active session and plan are available through repository flows.
+
+Graph (root): `PhnomyApp.graph(context)` returns `AppGraph` exposing `repository`, `controller`, `permissions`, `apps`, `usage`, `clock`. `platform/AndroidSessionEffects` implements `SessionEffects`. Platform providers: `PermissionAccess(context).status()/openAccessibility()/openExactAlarms()/openUsage()/openDnd()`; `InstalledApps(context).load(): List<InstalledApp>`, `isEssential(packageName): Boolean`, `launch(packageName)`; `UsageReader(context).read(startMillis,endMillis): UsageSummary`; `AndroidClock(context): FocusClock`. `FocusAccessibilityService` handles package/window events, always exempts system safety/settings, manages an accessibility overlay, and calls controller reconciliation before deciding to block. `SessionAlarmReceiver` reconciles on phase/exit deadlines and permission/reboot changes. `AndroidSessionEffects` schedules pending intents, notifications, and only the app-owned DND rule.
+
+UI entry point: `@Composable fun PhnomyRoot(model: FocusViewModel)`; ViewModel contract will be supplied separately. UI uses Material 3 controls and Figma geometry adapted to available space, actual system bars, dynamic installed apps and actual local statistics. No hardcoded demonstration records in the shipped product.
+
+All timing uses elapsed realtime (including sleep), with boot count detection. On reboot or a protection loss, record interrupted using the latest persisted focused-time checkpoint. No fabricated successful sessions. App has no INTERNET permission and no analytics. Accessibility disclosure precedes system permission request. Usage and DND are optional. All exit confirmation paths enforce a nonblank reason and at least 60 seconds; natural completion wins over an exit request.
+
+Pomodoro has configurable committed round count and a long break every 4 rounds. A final cycle-boundary long break is included, so the default 4 × 25 minute plan has three 5 minute breaks and a final 15 minute long break (130 minutes total / 100 focused). Other final rounds finish after their focus stage. Whitelist protection remains throughout all breaks.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.platform.PlatformProvidersTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-17T01:24:09.370Z" hostname="Y7000P" time="33.321">
+  <properties/>
+  <testcase name="completion remains silent when app notifications are disabled[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="10.783"/>
+  <testcase name="exact alarms are not assumed granted[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.221"/>
+  <testcase name="notification setting and runtime grant are both respected[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.133"/>
+  <testcase name="usage permission denial produces unavailable data rather than a fake usage result[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.19"/>
+  <testcase name="app and core safety packages are essential but arbitrary system apps are not[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.49"/>
+  <testcase name="accessibility checks our component and does not accept another service[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.137"/>
+  <testcase name="only completed sessions post an independent completion notification[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.45"/>
+  <testcase name="resolved launcher settings and dialer are essential[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.333"/>
+  <testcase name="each new focus session refreshes only own rule with current call exceptions[31]" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.636"/>
+  <testcase name="completion remains silent when app notifications are disabled" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="19.029"/>
+  <testcase name="exact alarms are not assumed granted" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.073"/>
+  <testcase name="notification setting and runtime grant are both respected" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.05"/>
+  <testcase name="usage permission denial produces unavailable data rather than a fake usage result" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.055"/>
+  <testcase name="app and core safety packages are essential but arbitrary system apps are not" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.178"/>
+  <testcase name="accessibility checks our component and does not accept another service" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.051"/>
+  <testcase name="only completed sessions post an independent completion notification" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.164"/>
+  <testcase name="resolved launcher settings and dialer are essential" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.105"/>
+  <testcase name="each new focus session refreshes only own rule with current call exceptions" classname="com.ray.phnomy.platform.PlatformProvidersTest" time="0.222"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

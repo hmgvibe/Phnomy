@@ -1,0 +1,312 @@
+{
+  "b2412.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/cb6f2f4c-e63d-411a-83ba-2f62fe779259/b2412.svg",
+    "slots": [
+      "6:575:imgIconMap",
+      "6:305:imgIconMap",
+      "6:633:imgIconMap"
+    ]
+  },
+  "00f63.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/cb6f2f4c-e63d-411a-83ba-2f62fe779259/00f63.svg",
+    "slots": [
+      "6:575:imgIconMessage",
+      "6:305:imgIconMessage",
+      "6:633:imgIconMessage"
+    ]
+  },
+  "345ce.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/cb6f2f4c-e63d-411a-83ba-2f62fe779259/345ce.svg",
+    "slots": [
+      "6:575:imgIconPhone",
+      "6:305:imgIconPhone",
+      "6:633:imgIconPhone"
+    ]
+  },
+  "f9714.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/cb6f2f4c-e63d-411a-83ba-2f62fe779259/f9714.svg",
+    "slots": [
+      "6:575:imgFrame",
+      "6:633:imgFrame"
+    ]
+  },
+  "3d1dc.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/851fb633-b838-4710-a08f-f96df21bc797/3d1dc.svg",
+    "slots": [
+      "9:349:imgIconChevron"
+    ]
+  },
+  "3ad0d.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/3ad0d.svg",
+    "slots": [
+      "9:349:imgIconFocus",
+      "9:471:imgIconFocus",
+      "9:549:imgIconFocus"
+    ]
+  },
+  "184ad.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/fd5d8afa-5292-4a55-9bc9-4f02290abae7/184ad.svg",
+    "slots": [
+      "9:349:imgIconChart",
+      "9:471:imgIconChart"
+    ]
+  },
+  "6db49.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/fd5d8afa-5292-4a55-9bc9-4f02290abae7/6db49.svg",
+    "slots": [
+      "9:349:imgIconSettings",
+      "6:209:imgIconSettings",
+      "9:471:imgIconSettings",
+      "6:120:settings"
+    ]
+  },
+  "d9401.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/fd5d8afa-5292-4a55-9bc9-4f02290abae7/d9401.svg",
+    "slots": [
+      "6:433:imgIconBack",
+      "6:305:imgIconBack",
+      "6:741:imgIconBack",
+      "9:471:imgIconBack"
+    ]
+  },
+  "3f205.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/131807ca-e7ff-4614-80d6-e78a5dc01dfb/3f205.svg",
+    "slots": [
+      "6:433:imgIconShield"
+    ]
+  },
+  "b243d.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/8fc7af58-da80-4d18-9502-e253531ae6cb/b243d.svg",
+    "slots": [
+      "6:433:imgIconShield1",
+      "6:209:imgIconShield",
+      "6:120:shield"
+    ]
+  },
+  "c71fe.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/131807ca-e7ff-4614-80d6-e78a5dc01dfb/c71fe.svg",
+    "slots": [
+      "6:433:imgIconClock"
+    ]
+  },
+  "a9bf4.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/131807ca-e7ff-4614-80d6-e78a5dc01dfb/a9bf4.svg",
+    "slots": [
+      "6:433:imgIconChevron"
+    ]
+  },
+  "26e95.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/d6c6c5ba-2e55-497e-a82e-4caa64f2c93a/26e95.svg",
+    "slots": [
+      "6:305:imgIconSearch"
+    ]
+  },
+  "14303.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/d6c6c5ba-2e55-497e-a82e-4caa64f2c93a/14303.svg",
+    "slots": [
+      "6:305:imgIconInstagram"
+    ]
+  },
+  "a9e6f.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/d6c6c5ba-2e55-497e-a82e-4caa64f2c93a/a9e6f.svg",
+    "slots": [
+      "6:305:imgIconVideo"
+    ]
+  },
+  "31f7b.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/d6c6c5ba-2e55-497e-a82e-4caa64f2c93a/31f7b.svg",
+    "slots": [
+      "6:305:imgIconGlobe"
+    ]
+  },
+  "96a32.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/73a9b050-3d54-46ff-8061-751971895f16/96a32.svg",
+    "slots": [
+      "6:785:imgFrame"
+    ]
+  },
+  "3e6de.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/a2ea78b5-f700-4383-aba5-3ebea7225eb2/3e6de.svg",
+    "slots": [
+      "6:209:imgIconLeaf",
+      "6:827:imgIconLeaf",
+      "6:120:leaf"
+    ]
+  },
+  "bd78b.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/bd78b.svg",
+    "slots": [
+      "6:209:imgIconChevron",
+      "9:549:imgIconChevron"
+    ]
+  },
+  "f026c.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/8fc7af58-da80-4d18-9502-e253531ae6cb/f026c.svg",
+    "slots": [
+      "6:209:imgIconChevron1",
+      "6:120:chevron"
+    ]
+  },
+  "28f3a.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/8fc7af58-da80-4d18-9502-e253531ae6cb/28f3a.svg",
+    "slots": [
+      "6:209:imgIconMoon",
+      "6:120:moon"
+    ]
+  },
+  "f737d.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/8fc7af58-da80-4d18-9502-e253531ae6cb/f737d.svg",
+    "slots": [
+      "6:209:imgIconClock",
+      "6:120:clock"
+    ]
+  },
+  "1bb75.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/8fc7af58-da80-4d18-9502-e253531ae6cb/1bb75.svg",
+    "slots": [
+      "6:209:imgIconFocus",
+      "6:120:focus"
+    ]
+  },
+  "a4a19.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/a4a19.svg",
+    "slots": [
+      "6:209:imgIconChart",
+      "9:549:imgIconChart",
+      "6:120:chart"
+    ]
+  },
+  "86470.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/a2ea78b5-f700-4383-aba5-3ebea7225eb2/86470.svg",
+    "slots": [
+      "6:827:imgIconCheck"
+    ]
+  },
+  "3aa95.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/3aa95.svg",
+    "slots": [
+      "9:549:imgIconShield"
+    ]
+  },
+  "657d6.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/657d6.svg",
+    "slots": [
+      "9:549:imgIconMoon"
+    ]
+  },
+  "729a1.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/729a1.svg",
+    "slots": [
+      "9:549:imgIconSun"
+    ]
+  },
+  "6b97c.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/6b97c.svg",
+    "slots": [
+      "9:549:imgIconHistory"
+    ]
+  },
+  "a96eb.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/a96eb.svg",
+    "slots": [
+      "9:549:imgIconInfo"
+    ]
+  },
+  "b50ee.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/5e49e4bc-daa6-43cc-b74a-1b230285bfab/b50ee.svg",
+    "slots": [
+      "9:549:imgIconSettings"
+    ]
+  },
+  "b2ef7.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/b2ef7.svg",
+    "slots": [
+      "10:1604:imgIconLeaf"
+    ]
+  },
+  "f879a.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/f879a.svg",
+    "slots": [
+      "10:1604:imgIconShield"
+    ]
+  },
+  "aa5a0.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/aa5a0.svg",
+    "slots": [
+      "10:1604:imgIconChevron"
+    ]
+  },
+  "d92d6.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/d92d6.svg",
+    "slots": [
+      "10:1604:imgIconMoon"
+    ]
+  },
+  "a1319.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/a1319.svg",
+    "slots": [
+      "10:1604:imgIconClock"
+    ]
+  },
+  "f1926.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/f1926.svg",
+    "slots": [
+      "10:1604:imgIconFocus"
+    ]
+  },
+  "f470d.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/ff2f2801-f6f5-49c2-9d99-25132945a31f/f470d.svg",
+    "slots": [
+      "10:1604:imgIconChart"
+    ]
+  },
+  "72c8f.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/4f175895-4f65-487a-b505-57ca37b18aae/72c8f.svg",
+    "slots": [
+      "10:1604:imgIconSettings",
+      "10:1804:imgIconSettings"
+    ]
+  },
+  "a9f97.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/b9dd273a-9c97-489c-9824-27fd8d7be59e/a9f97.svg",
+    "slots": [
+      "10:1725:imgIconMap"
+    ]
+  },
+  "3fd60.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/b9dd273a-9c97-489c-9824-27fd8d7be59e/3fd60.svg",
+    "slots": [
+      "10:1725:imgIconMessage"
+    ]
+  },
+  "3e6bc.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/b9dd273a-9c97-489c-9824-27fd8d7be59e/3e6bc.svg",
+    "slots": [
+      "10:1725:imgIconPhone"
+    ]
+  },
+  "89904.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/b9dd273a-9c97-489c-9824-27fd8d7be59e/89904.svg",
+    "slots": [
+      "10:1725:imgFrame"
+    ]
+  },
+  "c89ec.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/4f175895-4f65-487a-b505-57ca37b18aae/c89ec.svg",
+    "slots": [
+      "10:1804:imgIconChevron"
+    ]
+  },
+  "3afcd.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/4f175895-4f65-487a-b505-57ca37b18aae/3afcd.svg",
+    "slots": [
+      "10:1804:imgIconFocus"
+    ]
+  },
+  "36f83.svg": {
+    "url": "https://www.figma.com/api/mcp/asset/4f175895-4f65-487a-b505-57ca37b18aae/36f83.svg",
+    "slots": [
+      "10:1804:imgIconChart"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+const changes=[];const removed=[];
+const componentCache={};for(const[k,info]of Object.entries(STATE.reusable))componentCache[k]=await figma.getNodeByIdAsync(info.id);
+const roots=[];for(const id of Object.values(STATE.screens))roots.push(await figma.getNodeByIdAsync(id));const previews=await figma.getNodeByIdAsync(STATE.previewRow);roots.push(...previews.children);
+for(const root of roots){const dark=root.name.includes('dark');const t=dark?'Dark':'Light';const targets=root.findAll(n=>n.type==='FRAME'&&(n.name.startsWith('Time ')||n.name==='今日專注時間'||n.name==='今日手機使用時間'||n.name==='Notice'));
+ for(const old of targets){const originalText=old.findAllWithCriteria({types:['TEXT']}).map(x=>x.characters);let key;if(old.name.startsWith('Time ')){const p=old.fills[0];const roleVar=p?.boundVariables?.color?.id;const soft=vars.get('color/'+t+'/soft');const selected=roleVar===soft?.id;key='time_'+t+'_'+selected;}else if(old.name==='Notice'){const p=old.fills[0];key=p?.boundVariables?.color?.id===vars.get('color/Light/warningSoft')?.id?'notice_warning':'notice_normal';}else key='metric_'+t;
+  const info=STATE.reusable[key];const n=track(componentCache[key].createInstance());const props={};Object.entries(info.properties).forEach(([label,p],i)=>{const actual=Object.keys(n.componentProperties).find(k=>k.split('#')[0]===label);if(actual)props[actual]=originalText[i]||'';});n.setProperties(props);n.name=old.name;n.resize(old.width,old.height);const r=old.reactions||[];const parent=old.parent;const index=parent.children.indexOf(old);parent.insertChild(index,n);if(parent.layoutMode==='NONE'){n.x=old.x;n.y=old.y;}await n.setReactionsAsync(r);removed.push(old.id);old.remove();changes.push({id:n.id,family:key});
+ }
+}
+return {createdNodeIds:[...CREATED],removedNodeIds:removed,replacements:changes.length,families:changes.reduce((a,c)=>(a[c.family]=(a[c.family]||0)+1,a),{})};

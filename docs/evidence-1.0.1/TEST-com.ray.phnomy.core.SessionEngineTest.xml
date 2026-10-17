@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.core.SessionEngineTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-17T04:11:52.749Z" hostname="Y7000P" time="0.003">
+  <properties/>
+  <testcase name="all numeric limits are validated including inactive mode settings" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="rest time does not increase focused time" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="timer and phase deadline use elapsed clock despite wall clock edits" classname="com.ray.phnomy.core.SessionEngineTest" time="0.001"/>
+  <testcase name="successful completion records exact planned focus rather than late alarm time" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="default pomodoro includes final long break and one hundred focused minutes" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="single session ignores configured pomodoro round count" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="reboot interruption preserves only checkpoint focus and checkpoint end time" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="boot count change and elapsed rollback are detected" classname="com.ray.phnomy.core.SessionEngineTest" time="0.001"/>
+  <testcase name="default last long break remains active until its complete deadline" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="custom long break interval applies at each cycle boundary" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="exact boundaries enter next phase without a duplicated focus second" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="a final round outside the long break interval ends after focus" classname="com.ray.phnomy.core.SessionEngineTest" time="0.001"/>
+  <testcase name="exit countdown is exactly sixty elapsed seconds and never negative" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <testcase name="elapsed values clamp to valid session range" classname="com.ray.phnomy.core.SessionEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

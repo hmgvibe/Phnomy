@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ray.phnomy.data.SessionJsonTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-17T01:24:55.563Z" hostname="Y7000P" time="0.036">
+  <properties/>
+  <testcase name="single session planned focus ignores configured pomodoro rounds" classname="com.ray.phnomy.data.SessionJsonTest" time="0.002"/>
+  <testcase name="missing settings and unknown enum values retain valid defaults" classname="com.ray.phnomy.data.SessionJsonTest" time="0.008"/>
+  <testcase name="optional fields added after first storage revision have safe backward defaults" classname="com.ray.phnomy.data.SessionJsonTest" time="0.007"/>
+  <testcase name="persisted allowlist is stable regardless of input set iteration order" classname="com.ray.phnomy.data.SessionJsonTest" time="0.001"/>
+  <testcase name="required active timing identifiers and plan cannot be silently defaulted" classname="com.ray.phnomy.data.SessionJsonTest" time="0.004"/>
+  <testcase name="invalid committed plan is rejected rather than shortened during recovery" classname="com.ray.phnomy.data.SessionJsonTest" time="0.009"/>
+  <testcase name="settings and allowlist survive JSON escaping without delimiter ambiguities" classname="com.ray.phnomy.data.SessionJsonTest" time="0.001"/>
+  <testcase name="malformed checkpoints and invalid pending exits cannot recover as active" classname="com.ray.phnomy.data.SessionJsonTest" time="0.003"/>
+  <testcase name="invalid setting bounds are clamped and malformed values use defaults" classname="com.ray.phnomy.data.SessionJsonTest" time="0.0"/>
+  <testcase name="normalization applies to all stored setting boundaries" classname="com.ray.phnomy.data.SessionJsonTest" time="0.0"/>
+  <testcase name="active snapshot roundtrips committed plan and exit checkpoint exactly" classname="com.ray.phnomy.data.SessionJsonTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

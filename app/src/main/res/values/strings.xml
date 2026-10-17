@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phnomy</string>
+    <string name="accessibility_description">Phnomy 在專注與休息期間識別前景和可見視窗所屬的 App 套件，覆蓋不在本次白名單的 App。僅讀取視窗套件資訊，不讀取聊天或畫面文字、不遍歷內容、不擷取螢幕，也不傳送資料。電話、緊急撥號、系統設定及權限管理仍可使用。你可以隨時在系統設定撤銷服務；撤銷會將本次專注記為中斷。</string>
+</resources>
